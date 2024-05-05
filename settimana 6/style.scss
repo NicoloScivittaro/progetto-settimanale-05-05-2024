@@ -1,0 +1,180 @@
+// Variables
+$primary-color: #e50914; // Colore principale di Netflix
+$secondary-color: #f5f5f1; // Colore di sfondo
+
+// Importa Bootstrap dopo aver definito le variabili personalizzate
+body{
+  margin:0;
+  padding:0;
+  background-color:#000000 !important;
+   li{
+    color: white;
+   }
+}
+.navbar {
+  background-color: black !important;
+}
+#kids{
+height: 30px; width: 30px;
+}
+.navbar .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar .navbar-toggler-icon {
+  filter: invert(1); // Inverte il colore dell'icona del toggler per renderla bianca
+}
+// Navbar Styles
+
+#tread{
+color: white;
+}
+.card{
+  cursor: pointer;
+}
+
+
+/************************************** footer*************************************/
+footer{
+  width: 100%;
+}
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 30px 30px;
+  width: 100%;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footer .container {
+  width: 100%;
+}
+
+.footer .row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .col-md-3 {
+  flex: 0 0 auto;
+  width: calc(25% - 15px); /* Calcola la larghezza delle colonne con uno spazio tra di loro */
+}
+
+.footer .col-md-6 {
+  flex: 0 0 auto;
+  width: calc(50% - 15px); /* Calcola la larghezza delle colonne con uno spazio tra di loro */
+}
+
+.footer .col-md-3:last-child {
+  text-align: right; /* Allinea il bottone "Service Code" a destra */
+}
+
+.footer .col-md-3 ul,
+.footer .col-md-6 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .col-md-3 ul li,
+.footer .col-md-6 ul li {
+  flex-basis: 25%; /* Assicura che ci siano 4 elementi per riga */
+  padding: 5px;
+}
+
+.footer .copyright {
+  font-size: 10px;
+  margin-top: 20px;
+}
+// Importa Bootstrap dopo aver definito le variabili personalizzate
+
+/*************profile*******************/
+.underline {
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 500px; /* Limito la larghezza del contenitore */
+  margin: auto; /* Centrare il contenitore */
+  padding: 20px; /* Spazio interno per il contenuto */
+}
+h1 {
+  font-size: 24px; /* Riduco la dimensione del titolo */
+}
+.form-control,
+.btn {
+  font-size: 14px; /* Riduco la dimensione dei campi di input e dei pulsanti */
+}
+.form-check-label {
+  font-size: 12px; /* Riduco la dimensione delle etichette delle checkbox */
+}
+#language
+{
+  background-color: transparent
+}
+.form-check-label{
+  color: white
+}
+h5{
+  color: white !important
+}
+#maturity{
+  background-color: #ccccccb2; color: white;
+}
+p{
+  color: white
+}
+#text{
+  color: white !important
+}
+h1{
+  color: white !important
+}
+#language2{
+  color: white !important
+}
+#tv_shows{
+  margin-left: 20px;
+  padding: 20px
+}
+.navbar {
+  .navbar-brand {
+    color: white;
+  }
+
+  .nav-link {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+ #navbarDropdown{
+  border:1px solid grey;
+ }
+  .dropdown-menu {
+    background-color: transparent;
+    border:1px solid grey;
+
+    .dropdown-item {
+      color: white;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}
+
+@import './progetto-finale/scss/bootstrap.scss';
